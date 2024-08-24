@@ -6,6 +6,7 @@ def subt(*args):
     for num in args[1:]:  # Iterate through the remaining numbers
         result -= num  # Subtract each number from the result
     return result
+    return result + result 
 
 # Example usage
 print(subt(10, 5, 2))  # Output: 3
