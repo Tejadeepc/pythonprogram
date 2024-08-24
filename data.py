@@ -14,6 +14,7 @@ pipeline {
             steps {
                 // Compile Python files
                 sh 'python3 -m py_compile src/*.py'
+                sh 'echo added python file'
             }
         }
 
